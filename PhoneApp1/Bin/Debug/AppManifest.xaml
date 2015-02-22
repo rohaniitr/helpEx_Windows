@@ -1,0 +1,10 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="PhoneApp1" EntryPointType="PhoneApp1.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="PhoneApp1" Source="PhoneApp1.dll" />
+    <AssemblyPart x:Name="Jace" Source="Jace.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="OxyPlot" Source="OxyPlot.dll" />
+    <AssemblyPart x:Name="OxyPlot.WP8" Source="OxyPlot.WP8.dll" />
+    <AssemblyPart x:Name="Sparrow.Chart.WP8.45" Source="Sparrow.Chart.WP8.45.dll" />
+  </Deployment.Parts>
+</Deployment>
